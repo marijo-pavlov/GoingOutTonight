@@ -1,0 +1,42 @@
+html{
+	height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+#react-container {
+	height: 100%;
+}
+
+.wrapper{
+	height: 100%;
+}
+
+.homebg{
+	/* Free image on: https://www.pexels.com/photo/people-party-dancing-music-2850/ */
+	background: url('https://static.pexels.com/photos/4097/city-cars-traffic-lights.jpeg') no-repeat bottom center fixed;
+    background-size: cover;
+    color: white;
+	text-align: center;
+	padding-top: 20%;
+	min-height: 80%;
+	margin: 0;
+}
+
+.homebg > .container {
+	background-color: rgba(0,0,0,0.8);
+	width: 100%;
+	height: 100%;
+}
+
+.content{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
